@@ -3,9 +3,15 @@
 }
 
 /* Create two equal columns that floats next to each other */
-.column {
+.column1 {
     float: left;
-    width: 50%;
+    width: 80%;
+    padding: 20px;
+    /* height: 300px; Should be removed. Only for demonstration */
+}
+.column2 {
+    float: left;
+    width: 20%;
     padding: 10px;
     /* height: 300px; Should be removed. Only for demonstration */
 }
@@ -15,6 +21,20 @@
     content: "";
     display: table;
     clear: both;
+}
+.image{
+    width: 150px;
+    height: 150px;
+}
+.imagecol{
+    float: left;
+    width: 20%;
+    padding: 10px; 
+}
+.headercol{
+    float: left;
+    width: 80%;
+    padding: 20px;
 }
 .sign{
     border-radius: 5px;
@@ -51,7 +71,7 @@ input[type=password]{
 }
 
 input[type=submit] {
-    width: 100%;
+    width: 70%;
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -70,7 +90,7 @@ input[type=submit]:hover {
 
 }
 .main-container{
-    width:80%;
+    width:100%;
     padding: 5px;
     margin: 0 auto;
     height: 100%;
@@ -121,4 +141,15 @@ input[type=submit]:hover {
     /* min-height: 1px; */
     padding-right: 15px;
     padding-left: 15px;
+}
+textarea {
+    width: 70%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
 }
